@@ -78,6 +78,8 @@ select {
 }
 .about-games {
     background: #202027;
+    padding-bottom: 96px;
+    
 
     &__title {
         color: #FFFFFF;
@@ -111,6 +113,7 @@ select {
         display: flex;
         gap: 32px;
         background: none;
+        flex-wrap: wrap;
     }
 
     &__article {
@@ -126,10 +129,41 @@ select {
     // }
 
     &__button {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        margin-left: 32px;
+        // width: 108px;
+        height: 36px;
+        border-radius: 18px;
+        // angle: 0 deg;
+        opacity: 1;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 10px;
+        padding-left: 16px;
 
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        // leading-trim: NONE;
+        // line-height: 110.00000000000001%;
+        // letter-spacing: 0px;
+        // vertical-align: bottom;
+        // font-variant-numeric-figure: lining-nums;
+        // font-variant-numeric-spacing: proportional-nums;
     }
 
     &__description {
-
+        margin-bottom: 36px;
+        margin-left: 32px;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        // leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
     }
 }

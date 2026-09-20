@@ -80,6 +80,7 @@ select {
 
 .about-games {
   background: #202027;
+  padding-bottom: 96px;
 }
 .about-games__title {
   color: #FFFFFF;
@@ -109,10 +110,38 @@ select {
   display: flex;
   gap: 32px;
   background: none;
+  flex-wrap: wrap;
 }
 .about-games__article {
   width: 378px;
   opacity: 1;
   border-radius: 30px;
   background-color: #FFFFFF;
+}
+.about-games__button {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  height: 36px;
+  border-radius: 18px;
+  opacity: 1;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+}
+.about-games__description {
+  margin-bottom: 36px;
+  margin-left: 32px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
 }/*# sourceMappingURL=style.css.map */
