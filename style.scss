@@ -1,7 +1,6 @@
 html {
     font-size: 16px;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,10 +30,6 @@ select {
 
     &__index {
         background-image: url(./img/heder.png);
-    }
-    .header {
-        margin-left: 120px;
-        padding-bottom: 156px;
     }
     &__title {
         padding-top: 196px;
@@ -77,4 +72,8 @@ select {
         background: rgba(222, 215, 215, 0.41);
         border: 1px solid #202027;
     }
+}
+.header {
+    margin-left: 120px;
+    padding-bottom: 156px;
 }

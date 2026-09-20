@@ -35,10 +35,6 @@ select {
 .top__index {
   background-image: url(./img/heder.png);
 }
-.top .header {
-  margin-left: 120px;
-  padding-bottom: 156px;
-}
 .top__title {
   padding-top: 196px;
   width: 769px;
@@ -77,4 +73,9 @@ select {
   color: #202027;
   background: rgba(222, 215, 215, 0.41);
   border: 1px solid #202027;
+}
+
+.header {
+  margin-left: 120px;
+  padding-bottom: 156px;
 }/*# sourceMappingURL=style.css.map */
