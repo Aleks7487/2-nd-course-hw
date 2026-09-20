@@ -40,7 +40,6 @@ select {
   font-weight: 700;
   font-style: Bold;
   font-size: 64px;
-  leading-trim: NONE;
   line-height: 1, 5;
   letter-spacing: 0px;
   vertical-align: middle;
@@ -77,4 +76,43 @@ select {
 
 .header {
   padding-bottom: 156px;
+}
+
+.about-games {
+  background: #202027;
+}
+.about-games__title {
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  padding-top: 96px;
+  padding-bottom: 24px;
+}
+.about-games__descriptions {
+  max-width: 788px;
+  padding-bottom: 72px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.about-games__cards {
+  display: flex;
+  gap: 32px;
+  background: none;
+}
+.about-games__article {
+  width: 378px;
+  opacity: 1;
+  border-radius: 30px;
+  background-color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
