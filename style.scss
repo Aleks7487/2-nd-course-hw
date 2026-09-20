@@ -1,0 +1,35 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat, arial;
+    font-size: 24px;
+}
+.center{
+    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 600px);
+}
+a,
+input,
+button,
+select {
+    font-family: Montserrat, arial;
+}
+
+.top {
+    display: block;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__index {
+        background-image: url(./img/heder.png);
+    }
+}
