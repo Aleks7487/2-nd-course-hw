@@ -27,9 +27,6 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
 
-    &__index {
-        background-image: url(./img/heder.png);
-    }
     &__title {
         padding-top: 196px;
         max-width: 769px;
@@ -72,6 +69,10 @@ select {
         border: 1px solid #202027;
     }
 }
+.top-index {
+    background-image: url(./img/heder.png);
+}
+
 .header {
     // margin-left: 120px;
     padding-bottom: 156px;
@@ -80,6 +81,10 @@ select {
     background: #202027;
     padding-bottom: 96px;
     
+    &__link {
+        display: block;
+        text-decoration: none;
+    }
 
     &__title {
         color: #FFFFFF;
@@ -94,7 +99,6 @@ select {
         padding-top: 96px;
         padding-bottom: 24px;
     }
-
     &__descriptions {
         max-width: 788px;
         padding-bottom: 72px;
@@ -107,15 +111,15 @@ select {
         line-height: 32px;
         letter-spacing: 0px;
         vertical-align: middle;
+        padding-bottom: 36px;
+        color: black;
     }
-
     &__cards {
         display: flex;
         gap: 32px;
         background: none;
         flex-wrap: wrap;
     }
-
     &__article {
         width: 378px;
         // angle: 0 deg;
