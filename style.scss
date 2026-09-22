@@ -22,11 +22,33 @@ select {
 }
 
 .top {
-    // width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
+    &__star {
+        position: absolute;
+        background-image: url("./img/Star2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 2;
+
+        &-left {
+            top: 94px;
+            left: 64px;
+            width: 57px;
+            height: 57px;
+        }
+        &-right {
+            background-position: right;
+            top: 538px;
+            right: 455px;
+            width: 37px;
+            height: 37px;
+        }
+    }
     &__title {
         padding-top: 196px;
         max-width: 769px;
