@@ -46,11 +46,40 @@ select {
   height: 57px;
 }
 .top__star-right {
-  background-position: right;
   top: 538px;
-  right: 455px;
+  left: 948px;
   width: 37px;
   height: 37px;
+}
+.top__star1 {
+  position: absolute;
+  background-image: url("./img/Star3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3;
+}
+.top__star1-left {
+  top: 69px;
+  left: 156px;
+  width: 35px;
+  height: 35px;
+}
+.top__star1-right {
+  top: 568px;
+  left: 1014px;
+  width: 83px;
+  height: 83px;
+}
+.top__star2 {
+  position: absolute;
+  background-image: url("./img/star1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-position: right;
+  width: 1320px;
+  height: 720px;
 }
 .top__title {
   padding-top: 196px;
@@ -133,7 +162,6 @@ select {
   letter-spacing: 0px;
   vertical-align: middle;
   padding-bottom: 36px;
-  color: black;
 }
 .about-games__cards {
   display: flex;
@@ -173,4 +201,6 @@ select {
   line-height: 100%;
   letter-spacing: 0px;
   vertical-align: middle;
+  color: #202027;
+  padding-bottom: 36px;
 }/*# sourceMappingURL=style.css.map */
