@@ -46,6 +46,40 @@
                 height: 18px;
             }
         }
+        &__star1 {
+            position: absolute;
+            background-image: url("./img/Star3.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: 3;
+
+            &-left {
+                top: 64px;
+                left: 92px;
+                width: 21px;
+                height: 21px;
+            }
+            &-right {
+                // background-position: right;
+                top: 580px;
+                left: 302px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &__star3{
+            display: block;
+            position: absolute;
+            background-image: url("./img/Star.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            z-index: 3;
+            width: 384px;
+            height: 150px;
+        }
+
     }
     .center {
         padding-right: calc(50% - 172px);
