@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+    .top {
+
+
+        &__star2 {
+            display: none;
+        }
+        &__title {
+            text-align: center;
+            font-size: 40px;
+            padding-top: 147px;
+        }
+        &__entry {
+            font-size: 16px;
+        }
+        &__entry {
+            text-align: center;
+        }
+        &__link {
+            // display: block;
+            margin-left: calc(50% - 124px);
+            margin-right: calc(50% - 124px);
+        }
+        &__button {
+
+        }
+        &__star {
+            position: absolute;
+            background-image: url("./img/Star2.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: 2;
+
+            &-left {
+                top: 97px;
+                left: 37px;
+                width: 35px;
+                height: 35px;
+            }
+            &-right {
+                // background-position: right;
+                top: 557px;
+                left: 272px;
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+    .center {
+        padding-right: calc(50% - 172px);
+        padding-left: calc(50% - 172px);
+        }
+}
