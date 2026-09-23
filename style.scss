@@ -146,6 +146,9 @@ select {
     &__link {
         display: block;
         text-decoration: none;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
     }
 
     &__title {
@@ -220,7 +223,7 @@ select {
         // font-variant-numeric-spacing: proportional-nums;
     }
 
-    &__description {
+    &__name {
         margin-bottom: 36px;
         margin-left: 32px;
         font-family: Montserrat;
@@ -233,6 +236,9 @@ select {
         vertical-align: middle;
         color: #202027;
         padding-bottom: 36px;
+    }
+    &__description {
+        display: none;
     }
 }
 @import 'mob';
