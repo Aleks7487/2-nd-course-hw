@@ -3,6 +3,9 @@ alert(a);
 a = 20;
 alert(a);
 
-let release = 2007;
-alert(release);
+let releaseIfone = 2007;
+alert(releaseIfone);
+
+let JS = 'Брендан Эйх';
+alert(JS);
 
