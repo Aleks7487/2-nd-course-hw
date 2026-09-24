@@ -9,3 +9,10 @@ alert(releaseIfone);
 let JS = 'Брендан Эйх';
 alert(JS);
 
+let two = 2;
+let ten = 10;
+alert(two + ten);
+alert(two - ten);
+alert(two * ten);
+alert(ten / two);
+
