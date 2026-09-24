@@ -12,7 +12,9 @@ alert(JS);
 let two = 2;
 let ten = 10;
 alert(two + ten);
-alert(two - ten);
+alert(ten - two);
 alert(two * ten);
 alert(ten / two);
 
+let result = two**5;
+alert(result);
