@@ -134,6 +134,7 @@
     font-size: 16px;
   }
   .about-games__button-play {
+    display: block;
     padding-bottom: 16px;
     padding-top: 16px;
     background: #202027;
@@ -141,7 +142,6 @@
     border-radius: 33px;
     width: 285px;
     margin-left: 29px;
-    margin-bottom: 32px;
     height: 55px;
     font-size: 16px;
     line-height: 18px;
