@@ -104,7 +104,7 @@ select {
   display: block;
   max-width: 248px;
 }
-.top__button {
+.top__button, .mini-games__play {
   padding-bottom: 16px;
   padding-top: 16px;
   width: 100%;
@@ -119,7 +119,7 @@ select {
   border: none;
   transition: all 0.3s ease;
 }
-.top__button:hover {
+.top__button:hover, .mini-games__play:hover {
   color: #202027;
   background: rgba(222, 215, 215, 0.41);
   border: 1px solid #202027;
@@ -141,7 +141,7 @@ select {
   display: block;
   text-decoration: none;
 }
-.about-games__title {
+.about-games__title, .mini-games__title {
   color: #FFFFFF;
   font-family: Montserrat;
   font-weight: 700;
@@ -152,6 +152,9 @@ select {
   vertical-align: middle;
   padding-top: 96px;
   padding-bottom: 24px;
+}
+.about-games__title_mob {
+  display: none;
 }
 .about-games__descriptions {
   max-width: 788px;
@@ -211,6 +214,24 @@ select {
   display: none;
 }
 
+.mini-games {
+  background: #000;
+}
+.mini-games__card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-radius: 50px;
+}
+.mini-games__link {
+  max-width: 248px;
+  display: block;
+}
+.mini-games__img {
+  width: 600px;
+  height: 500px;
+}
+
 @media (max-width: 767px) {
   .top__star2 {
     display: none;
@@ -230,7 +251,7 @@ select {
     margin-left: calc(50% - 124px);
     margin-right: calc(50% - 124px);
   }
-  .top__button {
+  .top__button, .mini-games__play {
     height: 55px;
     font-size: 16px;
   }
@@ -291,7 +312,7 @@ select {
     padding-right: calc(50% - 172px);
     padding-left: calc(50% - 172px);
   }
-  .about-games__title {
+  .about-games__title, .mini-games__title {
     display: none;
   }
   .about-games__title_mob {
