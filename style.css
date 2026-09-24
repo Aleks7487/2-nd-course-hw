@@ -250,7 +250,7 @@ select {
   }
   .top__star-right {
     top: 557px;
-    left: 272px;
+    left: 256px;
     width: 18px;
     height: 18px;
   }
@@ -270,7 +270,7 @@ select {
   }
   .top__star1-right {
     top: 580px;
-    left: 302px;
+    left: 286px;
     width: 40px;
     height: 40px;
   }
@@ -282,8 +282,10 @@ select {
     background-repeat: no-repeat;
     background-position: right;
     z-index: 3;
-    width: 360px;
+    width: 100vw;
     height: 150px;
+    left: 0;
+    top: 0;
   }
   .center {
     padding-right: calc(50% - 172px);
