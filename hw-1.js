@@ -40,3 +40,6 @@ let user = {
     age: 39,
     isAdmin: true
 }
+
+let name1 = prompt('Введите ваше имя');
+alert(name1);
