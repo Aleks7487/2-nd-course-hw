@@ -78,7 +78,7 @@ select {
   background-repeat: no-repeat;
   z-index: 3;
   background-position: right;
-  width: 1320px;
+  width: 1250px;
   height: 720px;
 }
 .top__star3 {
@@ -219,6 +219,7 @@ select {
 
 .mini-games {
   background: #202027;
+  padding-bottom: 144px;
 }
 .mini-games__title {
   padding-top: 0;
@@ -256,6 +257,13 @@ select {
 .mini-games__img {
   width: 600px;
   height: 500px;
+}
+
+.footer__pravo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 560px;
+  background: #BDED35;
 }
 
 @media (max-width: 767px) {

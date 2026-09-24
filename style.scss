@@ -81,7 +81,7 @@ select {
         // background-position: center;
         z-index: 3;
         background-position: right;
-        width: 1320px;
+        width: 1250px;
         height: 720px;
         // left: 460px;
 
@@ -243,6 +243,7 @@ select {
 
 .mini-games {
     background: #202027;
+    padding-bottom: 144px;
     &__title {
         @extend .about-games__title;
         padding-top: 0;
@@ -295,6 +296,14 @@ select {
         width: 600px;
         height: 500px;
 
+    }
+}
+.footer {
+    &__pravo {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 560px;
+        background: #BDED35;
     }
 }
 @import 'mob';
