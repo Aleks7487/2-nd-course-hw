@@ -1,27 +1,27 @@
 let a = 10;
-alert(a);
+console.log(a);
 a = 20;
-alert(a);
+console.log(a);
 
-let releaseIfone = 2007;
-alert(releaseIfone);
+const releaseIfone = 2007;
+console.log(releaseIfone);
 
 let JS = 'Брендан Эйх';
-alert(JS);
+console.log(JS);
 
 let two = 2;
 let ten = 10;
-alert(two + ten);
-alert(ten - two);
-alert(two * ten);
-alert(ten / two);
+console.log(two + ten);
+console.log(ten - two);
+console.log(two * ten);
+console.log(ten / two);
 
 let result = two**5;
-alert(result);
+console.log(result);
 
 a = 9;
 let b = 2;
-alert(a % b);
+console.log(a % b);
 
 let num = 1;
 num += 5;
@@ -30,10 +30,10 @@ num *= 7;
 num /= 3;
 num++;
 num--;
-alert(num);
+console.log(num);
 
 let age = prompt("Сколько вам лет?");
-alert(age);
+console.log(age);
 
 let user = {
     name: 'Alex',
@@ -42,4 +42,4 @@ let user = {
 }
 
 let name1 = prompt('Введите ваше имя');
-alert(name1);
+console.log(name1);
