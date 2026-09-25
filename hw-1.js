@@ -43,4 +43,4 @@ let user = {
 }
 
 let name1 = prompt('Введите ваше имя');
-console.log(name1);
+console.log(`Привет ${name1}`);
