@@ -78,7 +78,7 @@ select {
   background-repeat: no-repeat;
   z-index: 3;
   background-position: right;
-  width: 1250px;
+  width: 1320px;
   height: 720px;
 }
 .top__star3 {
@@ -419,5 +419,11 @@ select {
   }
   .mini-games {
     display: none;
+  }
+  .footer__pravo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    background: #BDED35;
   }
 }/*# sourceMappingURL=style.css.map */

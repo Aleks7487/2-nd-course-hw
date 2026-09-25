@@ -152,4 +152,10 @@
   .mini-games {
     display: none;
   }
+  .footer__pravo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    background: #BDED35;
+  }
 }/*# sourceMappingURL=mob.css.map */
