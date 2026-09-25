@@ -27,3 +27,12 @@ while (i < 23) {
 
 // 4 task
 
+const obj = {
+    'Коля': '200',
+    'Вася': '300',
+    'Петя': '400'
+}
+
+for (let key in obj) {
+    console.log(key, obj[key]);
+}
