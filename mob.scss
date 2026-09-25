@@ -88,87 +88,73 @@
         padding-left: calc(50% - 172px);
         }
     .about-games {
-        &__title{
-            display: none;
-
-            &_mob {
-                display: block;
-                color: #FFFFFF;
-                font-family: Montserrat;
-                font-weight: 700;
-                font-style: Bold;
-                font-size: 40px;
-                // leading-trim: NONE;
-                line-height: 100%;
-                letter-spacing: 0px;
-                // vertical-align: middle;
-                padding-top: 48px;
-                padding-bottom: 48px;
-            }
-        }
-        &__descriptions {
-            display: none;
-        }
-        &__cards {
-            display: flex;
-            gap: 24px;
-            background: none;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        &__article {
-            max-width: 342px;
-            // angle: 0 deg;
-            opacity: 1;
-            border-radius: 30px;
-            background-color: #FFFFFF;
-        }
-        &__img {
-            max-width: 342px;
-        }
-        &__button {
-            display: none;
-        }
-        &__name {
-            padding: none;
-            margin-bottom: 0;
-            margin-left: 29px;
-            margin-top: 32px;
-            padding-bottom: 16px;
-        }
-        &__description {
-            display: block;
-            max-width: 325px;
-            padding-left: 29px;
-            padding-bottom: 32px;
-            color: black;
-            font-family: Montserrat;
-            font-weight: 400;
-            font-style: Regular;
-            font-size: 16px;
-        }
-        &__button-play {
-        display: block;
-        padding-bottom: 16px;
-        padding-top: 16px;
-        background: #202027;
-        box-sizing: border-box;
-        border-radius: 33px;
-        width: 285px;
-        margin-left: 29px;
-        // margin-bottom:   32px;
-        height: 55px;
-        font-size: 16px;
-        line-height: 18px;
-        color: #ffffff;
-        border: none;
-        transition: all 0.3s ease;
-        }
+        display: none;
     }
     
 
     .mini-games {
-        display: none;
+        padding-bottom: 10px;
+
+        &__card {
+            flex-direction: column-reverse;
+
+            &_reverse {
+                // display: none;
+                flex-direction: column-reverse;
+            }
+        }
+
+        &__title {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+        }
+
+        &__name {
+            font-family: Montserrat;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 32px;
+            // leading-trim: NONE;
+            // line-height: 100%;
+            // letter-spacing: 0px;
+            // vertical-align: middle;
+        }
+
+        // &__discr {
+
+        // }
+
+        &__discription {
+            font-family: Montserrat;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 16px;
+            // leading-trim: NONE;
+            // line-height: 100%;
+            // letter-spacing: 0px;
+            // vertical-align: middle;
+
+        }
+
+        // &__link {
+
+        // }
+
+        // &__play {
+
+        // }
+
+        &__play {
+            margin-bottom: 32px;
+        }
+
+        &__img {
+            width: 344px;
+            height: auto;
+
+        }
+
     }
     
     .footer {

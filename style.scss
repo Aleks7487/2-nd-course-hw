@@ -244,6 +244,7 @@ select {
 .mini-games {
     background: #202027;
     padding-bottom: 144px;
+
     &__title {
         @extend .about-games__title;
         padding-top: 0;
