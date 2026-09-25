@@ -17,7 +17,8 @@ console.log(two * ten);
 console.log(ten / two);
 
 let result = two**5;
-console.log(result);
+console.log(`Результат задания номер 5 ${result}`);
+// console.log(result)
 
 a = 9;
 let b = 2;
