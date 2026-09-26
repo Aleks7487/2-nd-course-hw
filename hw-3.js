@@ -34,5 +34,5 @@ const obj = {
 }
 
 for (let key in obj) {
-    console.log(key, obj[key]);
+    console.log(`${key} — зарплата ${obj[key]} долларов`);
 }
