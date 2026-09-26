@@ -12,37 +12,37 @@ else {
 let c = 0;
 
 if ((c > 0) && (c < 10)) {
-    alert("Верно")
+    console.log("Верно")
 }
 else {
-    alert("Не верно")
+    console.log("Не верно")
 }
 
 c = 10;
 
 if ((c > 0)  && (c < 10)) {
-    alert("Верно")
+    console.log("Верно")
 }
 else {
-    alert("Не верно")
+    console.log("Не верно")
 }
 
 c = -3;
 
 if ((c > 0)  && (c < 10)) {
-    alert("Верно")
+    console.log("Верно")
 }
 else {
-    alert("Не верно")
+    console.log("Не верно")
 }
 
 c = 2;
 
 if ((c > 0)  && (c < 10)) {
-    alert("Верно")
+    console.log("Верно")
 }
 else {
-    alert("Не верно")
+    console.log("Не верно")
 }
 
 
@@ -52,10 +52,10 @@ let d = 85;
 let e = 65;
 
 if ((d > 100) || (e > 100)) {
-    alert("Верно")
+    console.log("Верно")
 }
 else {
-    alert("Не верно")
+    console.log("Не верно")
 }
 
 
