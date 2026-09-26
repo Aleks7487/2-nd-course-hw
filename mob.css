@@ -111,10 +111,14 @@
     font-weight: 400;
     font-style: Regular;
     font-size: 16px;
+    padding-right: 40px;
   }
   .mini-games__link {
     margin-top: 8px;
     max-width: 285px;
+  }
+  .mini-games__play {
+    margin-top: 24px;
   }
   .mini-games__play {
     margin-bottom: 32px;
