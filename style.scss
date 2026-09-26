@@ -303,8 +303,14 @@ select {
     &__pravo {
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 560px;
+        // padding-left: 560px;
         background: #BDED35;
+        width: 100vw;
+        text-align: center
+        font-family: Montserrat;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
     }
 }
 @import 'mob';
