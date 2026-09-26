@@ -36,3 +36,29 @@ const obj = {
 for (let key in obj) {
     console.log(`${key} — зарплата ${obj[key]} долларов`);
 }
+
+// 5 task 
+
+let n = 1000;
+let num = 0;
+
+while (n >= 50) {
+    n /= 2,
+    num++   
+}
+
+console.log('Итоговое число:', n);
+console.log('Количество итераций:', num);
+
+// решил попробовать проверить))
+
+// n = 31.25
+// num = 0
+
+// while (n < 1000) {
+//     n *= 2,
+//     num++
+// }
+
+// console.log('Итоговое число:', n);
+// console.log('Количество итераций:', num);
