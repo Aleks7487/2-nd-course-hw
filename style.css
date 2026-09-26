@@ -107,7 +107,6 @@ select {
 .top__button, .mini-games__play {
   padding-bottom: 16px;
   padding-top: 16px;
-  width: 100%;
   background: #202027;
   box-sizing: border-box;
   border-radius: 33px;
@@ -265,6 +264,10 @@ select {
   background: #BDED35;
   width: 100vw;
   text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
 }
 
 @media (max-width: 767px) {
@@ -283,12 +286,13 @@ select {
     text-align: center;
   }
   .top__link {
-    margin-left: calc(50% - 124px);
-    margin-right: calc(50% - 124px);
+    margin-left: auto;
+    margin-right: auto;
   }
   .top__button, .mini-games__play {
     height: 55px;
     font-size: 16px;
+    width: 100%;
   }
   .top__star {
     position: absolute;
@@ -386,8 +390,6 @@ select {
   .footer__pravo {
     padding-top: 40px;
     padding-bottom: 40px;
-    font-weight: 600;
-    font-style: SemiBold;
     font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -113,7 +113,6 @@ select {
     &__button {
         padding-bottom: 16px;
         padding-top: 16px;
-        width: 100%;
         background: #202027;
         box-sizing: border-box;
         border-radius: 33px;
@@ -306,7 +305,7 @@ select {
         // padding-left: 560px;
         background: #BDED35;
         width: 100vw;
-        text-align: center
+        text-align: center;
         font-family: Montserrat;
         font-weight: 600;
         font-style: SemiBold;
