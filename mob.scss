@@ -116,15 +116,16 @@
             font-weight: 700;
             font-style: Bold;
             font-size: 32px;
+            padding-top: 24px;
             // leading-trim: NONE;
             // line-height: 100%;
             // letter-spacing: 0px;
             // vertical-align: middle;
         }
 
-        // &__discr {
-
-        // }
+        &__discr {
+            padding-left: 24px;
+        }
 
         &__discription {
             font-family: Montserrat;
@@ -138,9 +139,10 @@
 
         }
 
-        // &__link {
-
-        // }
+        &__link {
+            margin-top: 8px;
+            max-width: 285px;
+        }
 
         // &__play {
 
