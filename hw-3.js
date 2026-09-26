@@ -53,12 +53,31 @@ console.log('Количество итераций:', num);
 // решил попробовать проверить))
 
 // n = 31.25
-// num = 0
+num = 0
 
-// while (n < 1000) {
-//     n *= 2,
-//     num++
-// }
+while (n < 1000) {
+    n *= 2,
+    num++
+}
 
-// console.log('Итоговое число:', n);
-// console.log('Количество итераций:', num);
+console.log('Итоговое число:', n);
+console.log('Количество итераций:', num);
+
+// 6 task 
+num = 0
+let friday = 4
+
+do {
+   console.log('Сегодня пятница,', friday,'-е сентября. Необходимо подготовить отчет.');
+   friday += 7;
+   num++;
+}
+while (friday < 30) {
+    // console.log('Отчёт сегодня', friday, 'Сентября'),
+    // friday += 7,
+    // num++
+};
+
+console.log('В сентябре', num, 'отчётов')
+
+
