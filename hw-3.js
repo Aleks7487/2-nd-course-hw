@@ -5,9 +5,9 @@ let i = 1
 while (i < 3) {
     console.log("Привет")
     i++
-}
+}uhhuh
 
-// 2 task
+// 2 taskojuhug
 
 i = 1
 
