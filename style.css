@@ -140,6 +140,9 @@ select {
   display: block;
   text-decoration: none;
 }
+.about-games__link:hover {
+  transform: scale(107%);
+}
 .about-games__title, .mini-games__title {
   color: #FFFFFF;
   font-family: Montserrat;
@@ -169,10 +172,10 @@ select {
   padding-bottom: 36px;
 }
 .about-games__cards {
-  display: flex;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background: none;
-  flex-wrap: wrap;
 }
 .about-games__article {
   width: 378px;
@@ -208,6 +211,7 @@ select {
   letter-spacing: 0px;
   vertical-align: middle;
   color: #202027;
+  padding-right: 10px;
 }
 .about-games__description {
   display: none;

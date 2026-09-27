@@ -43,23 +43,76 @@ square2(5)
 
 // // 4 task
 
-let userAge = prompt('Сколько вам лет')
 
 
 
-function age(fage) {
-    if (fage > 12) {
-        console.log('Добро пожаловать')
-    }
-    if (fage >= 0 && age <= 12) {
-        console.log('Привет, друг')
-    }
-    if (fage < 0) {
+function age() {
+    let userAge = prompt('Сколько вам лет')
+    if (isNaN(userAge) || userAge < 0) {
         console.log('Вы ввели неправильное значение')
     }
-    // else {
-    //     console.log('Вы ввели неправильное значение')
-    // }
+    else if (userAge >= 0 && age <= 12) {
+        console.log('Привет, друг')
+    }
+    else {
+        console.log('Добро пожаловать')
+    }
 }
 
-age(userAge)
+age()
+
+// 5 task
+
+function Numbers(a, b) {
+  const numA = Number(a);
+  const numB = Number(b);
+
+  if (isNaN(numA) || isNaN(numB)) {
+    return 'Одно или оба значения не являются числом';
+  }
+  else {
+    console.log('Задача выполнена.')
+    return numA * numB;
+  }
+}
+
+Numbers()
+
+
+// 6 task 
+
+
+function dataType() {
+    let userText = prompt('Введите любое число');
+    let userNumder = Number(userText);
+    if (isNaN(userNumder)) {
+        return('Переданный параметр не является числом')
+    }
+    else {
+        let cubed = userNumder **3
+        return(`${userNumder} в кубе равняется ${cubed}`)
+    }
+}
+dataType()
+
+// 7 task 
+
+const circle1 = {
+    radius: 10,
+    getArea() {
+        return Math.PI * this.radius ** 2;
+    }
+    getPerimeter() {
+        return 2 * Math.PI * this.radius;
+    }
+}
+
+const circle2 = {
+    radius: 25,
+    getArea() {
+        return Math.PI * this.radius ** 2;
+    }
+    getPerimeter() {
+        return 2 * Math.PI * this.radius;    
+    }
+}
