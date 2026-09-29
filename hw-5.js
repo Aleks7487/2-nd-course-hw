@@ -78,6 +78,12 @@ for (let i = 0; i < masiv1.length; i++) {
 
 // 3 task
 
+const masiv2 = [1, 3, 5, 10, 20];
+
+console.log(masiv2.join(' '))
+
+// 4 task
+
 
 
 
