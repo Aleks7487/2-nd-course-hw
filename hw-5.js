@@ -27,9 +27,9 @@ for (let i = 0; i < length; i += 1) {
     const userInput = prompt(`${q.question}\n${q.options.join('\n')}`);
     const userAnswer = parseInt(userInput, 10);
 
-    if (userInput === null) {
-        continue;
-    }
+    // if (userInput === null) {
+    //     continue;
+    // }
 
 
 
@@ -42,3 +42,4 @@ for (let i = 0; i < length; i += 1) {
 alert(`Ваш результат: ${right} из ${quiz.length}`);
 
 // 2 task
+
