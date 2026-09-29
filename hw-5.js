@@ -71,4 +71,9 @@ for (let i = 0; i < masiv1.length; i++) {
 
 // 3 task
 
+for (let i = 0; i < masiv1.length; i++) {
+  if (masiv1[i] === 4) {
+    console.log(i)}
+}
+
 
