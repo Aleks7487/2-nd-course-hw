@@ -187,11 +187,16 @@ select {
     &__cards {
         display: grid;
         // gap: 32px;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
         // grid-auto-flow: column;
         // grid-template-rows: auto auto;
         background: none;
+    }
+    &__card {
+        &_order5 {
+            padding-top: 32px;
+        }
     }
     &__article {
         width: 378px;

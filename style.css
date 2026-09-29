@@ -173,9 +173,12 @@ select {
 }
 .about-games__cards {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
   background: none;
+}
+.about-games__card_order5 {
+  padding-top: 32px;
 }
 .about-games__article {
   width: 378px;
