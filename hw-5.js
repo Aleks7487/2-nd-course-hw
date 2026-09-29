@@ -1,4 +1,4 @@
-// 1 task
+// quiz
 
 // const quiz = [
 //     {
@@ -41,7 +41,7 @@
 
 // alert(`Ваш результат: ${right} из ${quiz.length}`);
 
-// 2 task
+// 1 task
 
 const masiv1 = [1, 5, 4, 10, 0, 3];
 
@@ -69,11 +69,15 @@ for (let i = 0; i < masiv1.length; i++) {
   }
 }
 
-// 3 task
+// 2 task
 
 for (let i = 0; i < masiv1.length; i++) {
   if (masiv1[i] === 4) {
     console.log(i)}
 }
+
+// 3 task
+
+
 
 
