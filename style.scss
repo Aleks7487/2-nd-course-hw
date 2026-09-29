@@ -146,6 +146,10 @@ select {
         display: block;
         text-decoration: none;
 
+        &_order5 {
+            padding-top: 32px;
+        }
+
         &:hover {
             transform: scale(107%);
         }
@@ -193,11 +197,9 @@ select {
         // grid-template-rows: auto auto;
         background: none;
     }
-    &__card {
-        &_order5 {
-            background-color: #ffffff;
-        }
-    }
+    // &__card {
+  
+    // }
     &__article {
         width: 378px;
         // angle: 0 deg;
