@@ -156,3 +156,37 @@
 
 // // 10 task 
 
+// const masiv9 = [1, 2, 3, 8, 9];
+
+// for (let i = 0; i < masiv9.length - 1; i++) {
+//     console.log(masiv9[i] + masiv9[i + 1]);
+// }
+
+// // 11 task 
+
+// const masiv10 = masiv9.map(n => n * n);
+// return(masiv10)
+// // console.log(masiv10);
+
+// 12 task
+
+const masiv11 = ['слово', 'массив', 'map'];
+
+function getStringLengths(masiv11) {
+    return masiv11.map(item => item.length);
+}
+
+console.log(getStringLengths(masiv11));
+
+// 13 task
+
+const masiv12 = [2, -1, 0, -5, 7];
+
+function getNegativeNumbers(numbers) {
+    return numbers.filter(number => number < 0);
+}
+
+console.log(getNegativeNumbers(masiv12));
+
+
+// 14 task 
