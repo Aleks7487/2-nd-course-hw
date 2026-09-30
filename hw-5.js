@@ -97,3 +97,40 @@
 // console.log(masiv3); 
 
 // // 5 task
+
+// const masiv4 = [1, 1, 1];
+
+// masiv4.push(2, 2, 2);
+
+// console.log(masiv4);
+
+// // 6 task 
+
+// const masiv5 = [9, 8, 7, 'a', 6, 5];
+
+// masiv5.sort();
+// const sortedNumbers = masiv5.filter((item) => item !== 'a');
+
+// console.log(sortedNumbers);
+
+// // 7 task 
+
+// const masiv6 = [9, 8, 7, 6, 5];
+
+// const userGuess = prompt('Введите любое число');
+
+// const guess = masiv6.includes(Number(userGuess));
+
+// // console.log(guess)
+
+// if (guess == true) {
+//     alert('Угадал')
+// }
+// else {
+//     alert('Не угадал')
+// }
+
+// // 8 task 
+
+
+
