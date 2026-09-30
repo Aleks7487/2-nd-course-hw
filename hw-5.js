@@ -133,4 +133,26 @@
 // // 8 task 
 
 
+// let row1 = ('abcdef');
+
+// const row2 = row1.split('');
+
+// const row3 = row2.reverse();
+
+// const row4 = row3.join('');
+
+// console.log(row4);
+
+// // 9 task 
+
+// const masiv7 = [
+//     [1, 2, 3],
+//     [4, 5, 6]
+// ];
+
+// let masiv8 = [...masiv7[0], ...masiv7[1]];
+
+// console.log(masiv8)
+
+// // 10 task 
 
