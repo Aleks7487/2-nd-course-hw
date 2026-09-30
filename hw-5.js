@@ -1,172 +1,166 @@
-// // quiz
+// quiz
 
-// // const quiz = [
-// //     {
-// //         question: "Какой цвет небо?",
-// //         options: ["1. Красный", "2. Синий", "3. Зеленый"],
-// //         correctAnswer: 2 // номер правильного ответа
-// //     },
-// //     {
-// //         question: "Сколько дней в неделе?",
-// //         options: ["1. Шесть", "2. Семь", "3. Восемь"],
-// //         correctAnswer: 2
-// //     },
-// //     {
-// //         question: "Сколько у человека пальцев на одной руке?",
-// //         options: ["1. Четыре", "2. Пять", "3. Шесть"],
-// //         correctAnswer: 2
-// //     }
-// // ];
+const quiz = [
+    {
+        question: "Какой цвет небо?",
+        options: ["1. Красный", "2. Синий", "3. Зеленый"],
+        correctAnswer: 2 // номер правильного ответа
+    },
+    {
+        question: "Сколько дней в неделе?",
+        options: ["1. Шесть", "2. Семь", "3. Восемь"],
+        correctAnswer: 2
+    },
+    {
+        question: "Сколько у человека пальцев на одной руке?",
+        options: ["1. Четыре", "2. Пять", "3. Шесть"],
+        correctAnswer: 2
+    }
+];
 
-// // let right = 0;
+let right = 0;
 
-// // const length = quiz.length
+const length = quiz.length
 
-// // for (let i = 0; i < length; i += 1) {
-// //     const q = quiz[i];
-// //     const userInput = prompt(`${q.question}\n${q.options.join('\n')}`);
-// //     const userAnswer = parseInt(userInput, 10);
-
-// //     // if (userInput === null) {
-// //     //     continue;
-// //     // }
-
-
+for (let i = 0; i < length; i += 1) {
+    const q = quiz[i];
+    const userInput = prompt(`${q.question}\n${q.options.join('\n')}`);
+    const userAnswer = parseInt(userInput, 10);
 
     
-// //     if (userAnswer === q.correctAnswer) {
-// //         right++;
-// //     }    
-// // }
+    if (userAnswer === q.correctAnswer) {
+        right++;
+    }    
+}
 
-// // alert(`Ваш результат: ${right} из ${quiz.length}`);
+alert(`Ваш результат: ${right} из ${quiz.length}`);
 
-// // 1 task
+// 1 task
 
-// const masiv1 = [1, 5, 4, 10, 0, 3];
+const masiv1 = [1, 5, 4, 10, 0, 3];
 
-// // let find10 = masiv1.includes(10);
+// let find10 = masiv1.includes(10);
 
-// // if (find10 == true) {
-// //     console.log('Число 10 сдесь есть')
-// // } else {
-// //     console.log('Числа 10 здесь нет')
-// // }
-
-// for (let i = 0; i < masiv1.length; i++) {
-
-//     // let find10 = masiv1.includes(10);
-
-//     // if (find10 == true) {
-//     //     continue
-//     // } else {
-//     //     break
-//     // }
-
-//   console.log(masiv1[i]);
-//   if (masiv1[i] === 10) {
-//     break;
-//   }
+// if (find10 == true) {
+//     console.log('Число 10 сдесь есть')
+// } else {
+//     console.log('Числа 10 здесь нет')
 // }
 
-// // 2 task
+for (let i = 0; i < masiv1.length; i++) {
 
-// for (let i = 0; i < masiv1.length; i++) {
-//   if (masiv1[i] === 4) {
-//     console.log(i)}
-// }
+    // let find10 = masiv1.includes(10);
 
-// // 3 task
+    // if (find10 == true) {
+    //     continue
+    // } else {
+    //     break
+    // }
 
-// const masiv2 = [1, 3, 5, 10, 20];
+  console.log(masiv1[i]);
+  if (masiv1[i] === 10) {
+    break;
+  }
+}
 
-// console.log(masiv2.join(' '))
+// 2 task
 
-// // 4 task
+for (let i = 0; i < masiv1.length; i++) {
+  if (masiv1[i] === 4) {
+    console.log(i)}
+}
 
-// const masiv3 = []
+// 3 task
 
-// for (let i = 0; i < 3; i++) {
-//   const row = [];
-//   for (let j = 0; j < 3; j++) {
-//     row.push(1);
-//   }
-//   masiv3.push(row);
-// }
+const masiv2 = [1, 3, 5, 10, 20];
 
-// console.log(masiv3); 
+console.log(masiv2.join(' '))
 
-// // 5 task
+// 4 task
 
-// const masiv4 = [1, 1, 1];
+const masiv3 = []
 
-// masiv4.push(2, 2, 2);
+for (let i = 0; i < 3; i++) {
+  const row = [];
+  for (let j = 0; j < 3; j++) {
+    row.push(1);
+  }
+  masiv3.push(row);
+}
 
-// console.log(masiv4);
+console.log(masiv3); 
 
-// // 6 task 
+// 5 task
 
-// const masiv5 = [9, 8, 7, 'a', 6, 5];
+const masiv4 = [1, 1, 1];
 
-// masiv5.sort();
-// const sortedNumbers = masiv5.filter((item) => item !== 'a');
+masiv4.push(2, 2, 2);
 
-// console.log(sortedNumbers);
+console.log(masiv4);
 
-// // 7 task 
+// 6 task 
 
-// const masiv6 = [9, 8, 7, 6, 5];
+const masiv5 = [9, 8, 7, 'a', 6, 5];
 
-// const userGuess = prompt('Введите любое число');
+masiv5.sort();
+const sortedNumbers = masiv5.filter((item) => item !== 'a');
 
-// const guess = masiv6.includes(Number(userGuess));
+console.log(sortedNumbers);
 
-// // console.log(guess)
+// 7 task 
 
-// if (guess == true) {
-//     alert('Угадал')
-// }
-// else {
-//     alert('Не угадал')
-// }
+const masiv6 = [9, 8, 7, 6, 5];
 
-// // 8 task 
+const userGuess = prompt('Введите любое число');
+
+const guess = masiv6.includes(Number(userGuess));
+
+// console.log(guess)
+
+if (guess == true) {
+    alert('Угадал')
+}
+else {
+    alert('Не угадал')
+}
+
+// 8 task 
 
 
-// let row1 = ('abcdef');
+let row1 = ('abcdef');
 
-// const row2 = row1.split('');
+const row2 = row1.split('');
 
-// const row3 = row2.reverse();
+const row3 = row2.reverse();
 
-// const row4 = row3.join('');
+const row4 = row3.join('');
 
-// console.log(row4);
+console.log(row4);
 
-// // 9 task 
+// 9 task 
 
-// const masiv7 = [
-//     [1, 2, 3],
-//     [4, 5, 6]
-// ];
+const masiv7 = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
 
-// let masiv8 = [...masiv7[0], ...masiv7[1]];
+let masiv8 = [...masiv7[0], ...masiv7[1]];
 
-// console.log(masiv8)
+console.log(masiv8)
 
-// // 10 task 
+// 10 task 
 
-// const masiv9 = [1, 2, 3, 8, 9];
+const masiv9 = [1, 2, 3, 8, 9];
 
-// for (let i = 0; i < masiv9.length - 1; i++) {
-//     console.log(masiv9[i] + masiv9[i + 1]);
-// }
+for (let i = 0; i < masiv9.length - 1; i++) {
+    console.log(masiv9[i] + masiv9[i + 1]);
+}
 
-// // 11 task 
+// 11 task 
 
-// const masiv10 = masiv9.map(n => n * n);
-// return(masiv10)
-// // console.log(masiv10);
+const masiv10 = masiv9.map(n => n * n);
+return(masiv10)
+// console.log(masiv10);
 
 // 12 task
 
@@ -190,3 +184,31 @@ console.log(getNegativeNumbers(masiv12));
 
 
 // 14 task 
+
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+const randomNumbers = [];
+
+for (let index = 0; index < 10; index++) {
+    randomNumbers.push(random(0, 10));
+}
+
+const evenNumbers = randomNumbers.filter(number => number % 2 === 0);
+
+console.log(randomNumbers);
+console.log(evenNumbers);
+
+// 15 task 
+
+const randomNum = [];
+
+for (let index = 0; index < 6; index++) {
+    randomNum.push(random(1, 10));
+}
+
+const average = randomNum.reduce((sum, number) => sum + number, 0) / randomNum.length;
+
+console.log(average);
+
