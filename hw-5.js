@@ -159,8 +159,8 @@ for (let i = 0; i < masiv9.length - 1; i++) {
 // 11 task 
 
 const masiv10 = masiv9.map(n => n * n);
-return(masiv10)
-// console.log(masiv10);
+// return(masiv10)
+console.log(masiv10);
 
 // 12 task
 
