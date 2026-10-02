@@ -18,15 +18,13 @@ while (!guessed) {
     }
 
     if (userGuess === randomNum) {
-        alert('Угадали!');
+        // alert('Угадали!');
         guessed = true;
+        break
     } else if (userGuess < randomNum) {
         alert('Загаданное число больше');
     } else {
         alert('Загаданное число меньше');
     }
 }
-
-// 1 task 
-
 
