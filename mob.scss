@@ -18,8 +18,12 @@
         }
         &__link {
             // display: block;
+            display: none;
+
+            &_mob {
             margin-left: auto;
             margin-right: auto;
+            }
         }
         &__button {
             height: 55px;

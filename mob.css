@@ -14,6 +14,9 @@
     text-align: center;
   }
   .top__link {
+    display: none;
+  }
+  .top__link_mob {
     margin-left: auto;
     margin-right: auto;
   }
