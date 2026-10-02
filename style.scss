@@ -84,6 +84,7 @@ select {
         width: 1320px;
         height: 720px;
         // left: -120px;
+        pointer-events: none;
 
     }
     &__star3{
@@ -109,7 +110,12 @@ select {
         margin-top: 48px;
         display: block;
         max-width: 248px;
+
+        &_mob {
+            display: none;
+        }
     }
+
     &__button {
         padding-bottom: 16px;
         padding-top: 16px;

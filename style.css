@@ -80,6 +80,7 @@ select {
   background-position: right;
   width: 1320px;
   height: 720px;
+  pointer-events: none;
 }
 .top__star3 {
   display: none;
@@ -103,6 +104,9 @@ select {
   margin-top: 48px;
   display: block;
   max-width: 248px;
+}
+.top__link_mob {
+  display: none;
 }
 .top__button, .mini-games__play {
   padding-bottom: 16px;
@@ -305,6 +309,12 @@ select {
     text-align: center;
   }
   .top__link {
+    display: none;
+  }
+  .top__link_mob {
+    margin-top: 48px;
+    display: block;
+    max-width: 248px;
     margin-left: auto;
     margin-right: auto;
   }
