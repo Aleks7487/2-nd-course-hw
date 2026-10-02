@@ -146,6 +146,10 @@ select {
         display: block;
         text-decoration: none;
 
+        &_order5 {
+            padding-top: 32px;
+        }
+
         &:hover {
             transform: scale(107%);
         }
@@ -187,12 +191,15 @@ select {
     &__cards {
         display: grid;
         // gap: 32px;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
         // grid-auto-flow: column;
         // grid-template-rows: auto auto;
         background: none;
     }
+    // &__card {
+  
+    // }
     &__article {
         width: 378px;
         // angle: 0 deg;
@@ -240,6 +247,9 @@ select {
     }
     &__button-play {
         display: none;
+    }
+    &__play {
+        display: block;
     }
 }
 
@@ -315,4 +325,14 @@ select {
         font-size: 24px;
     }
 }
+
+.game {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/FYhb9bpjBOB1APLsQh96a1MbOf3uPWFqnzOGhm6cNUhLxwmoaegSkPtREHzq_rBUji9fLdlayVhj0VCTc8-L-iwy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 @import 'mob';

@@ -140,6 +140,9 @@ select {
   display: block;
   text-decoration: none;
 }
+.about-games__link_order5 {
+  padding-top: 32px;
+}
 .about-games__link:hover {
   transform: scale(107%);
 }
@@ -173,8 +176,8 @@ select {
 }
 .about-games__cards {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
   background: none;
 }
 .about-games__article {
@@ -218,6 +221,9 @@ select {
 }
 .about-games__button-play {
   display: none;
+}
+.about-games__play {
+  display: block;
 }
 
 .mini-games {
@@ -272,6 +278,15 @@ select {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 24px;
+}
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/FYhb9bpjBOB1APLsQh96a1MbOf3uPWFqnzOGhm6cNUhLxwmoaegSkPtREHzq_rBUji9fLdlayVhj0VCTc8-L-iwy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 @media (max-width: 767px) {
