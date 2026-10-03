@@ -17,3 +17,25 @@
 
 // // 3 task 
 
+// const originalNumber = 32.58884;
+// const roundedDown = Math.floor(originalNumber);
+// const roundedUp = Math.ceil(originalNumber);
+// const roundedToNearest = Math.round(originalNumber);
+
+// console.log('До меньшего целого:', roundedDown);
+// console.log('До большего целого:', roundedUp);
+// console.log('До ближайшего целого:', roundedToNearest);
+
+// // 4 task 
+
+// const originalArray = [52, 53, 49, 77, 21, 32];
+
+// const min = Math.min(...originalArray);
+
+// const max = Math.max(...originalArray);
+
+// console.log(min);
+// console.log(max);
+
+// // 5 task 
+
