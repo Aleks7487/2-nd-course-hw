@@ -46,3 +46,34 @@
 
 // // 6 task 
 
+// const inNumberStr = prompt('Введите любое число');
+// const inNumber = Number(inNumberStr);
+
+// if (!Number.isFinite(inNumber) || inNumber <= 0) {
+//   console.log('Нужно было ввести целое число.');
+
+// } else {
+//   const generateArray = (limit, count) => {
+//     const arr = [];
+//     for (let i = 0; i < count; i++) {
+//       const randomValue = Math.floor(Math.random() * limit) + 1;
+//       arr.push(randomValue);
+//     }
+//     return arr;
+//   };
+
+//   const count = Math.floor(inNumber / 2);
+//   const resultArray = generateArray(inNumber, count);
+
+//   console.log(resultArray);
+// }
+
+// // 7 task
+
+// const today = new Date();
+
+// const todayDate = today.getDate();
+
+// console.log(`Сегодня ${todayDate} число`);
+
+// // 8 task 
