@@ -77,3 +77,17 @@
 // console.log(`Сегодня ${todayDate} число`);
 
 // // 8 task 
+
+// let todaySec = today.getTime()
+
+// let days73 = 73 * 24 * 60 * 60 * 1000;
+
+// const futureDate = todaySec + days73;
+
+// const inDays = new Date(futureDate);
+
+// console.log(inDays);
+
+
+// // 9 task 
+
