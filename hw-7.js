@@ -45,3 +45,13 @@
 
 // // 3 task 
 
+// const showDate = setInterval(() => {
+//   alert(Date);
+// }, 3000);
+
+// setTimeout(() => {
+//   clearInterval(showDate);
+//   alert('Интервал остановлен');
+// }, 30000);
+
+// // 4 task 
