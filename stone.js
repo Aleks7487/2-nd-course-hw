@@ -13,15 +13,15 @@ const randomOption = answerOptions[random()];
 function checkGame(params) {
 
         if (randomOption.toLowerCase().includes(userAnsver.trim().toLowerCase())) {
-            console.log('Попробуйте еще раз')
+            console.log(`Противник тоже загадал "${randomOption}", попробуйте еще раз`)
         }
 
-        else if ((answerOptions.indexOf(userAnsver.trim().toLowerCase) + 1) === (answerOptions.indexOf(randomOption)) || (answerOptions.indexOf(userAnsver.trim().toLowerCase) - 2) === (answerOptions.indexOf(randomOption))) {
-            console.log(`Противник загадал ${randomOption}, поэтому вы выиграли`)
+        else if ((answerOptions.indexOf(userAnsver.trim().toLowerCase()) + 1) === (answerOptions.indexOf(randomOption)) || (answerOptions.indexOf(userAnsver.trim().toLowerCase()) - 2) === (answerOptions.indexOf(randomOption))) {
+            console.log(`Противник загадал "${randomOption}", поэтому вы выиграли`)
         }
 
         else {
-            console.log(`Противник загадал ${randomOption}, поэтому вы проиграли`)
+            console.log(`Противник загадал "${randomOption}", поэтому вы проиграли`)
         }
 }
 
