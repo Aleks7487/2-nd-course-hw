@@ -9,7 +9,7 @@ let guessed = false;
 
 while (!guessed) {
     const input = prompt('Угадайте число от 1 до 100');
-    if (input === null) break;
+    if (input === null) continue;
 
     const userGuess = Number(input);
     if (!Number.isInteger(userGuess) || userGuess < 1 || userGuess > 100) {
